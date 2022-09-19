@@ -1,0 +1,53 @@
+.card img{
+    height: 4.3rem;
+    width: 4.3rem;
+}
+.cards{
+    margin: 2rem;
+    color: #fff;
+    display: flex;
+    overflow-x: scroll;
+}
+.main-tariningcontainers{
+   
+    padding-top: 3rem;
+}
+.main-tariningcontainers h1{
+    font-size: 5rem;
+}
+.card{
+    width:14rem;
+    background-color: rgb(98, 97, 96);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+.card div{
+  text-align: left;
+}
+.card h4{
+    text-align: left;
+}
+.card .timings{
+    background-color: rgb(41, 66, 76);
+    margin: 0 -1rem;
+    padding-left: 1rem;
+}
+.card button{
+    border: none;
+    outline: none;
+    width: 10rem;
+    height: 2rem;
+    background-color: #fff;
+    color: black;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.card button:hover{
+   width: 11.5rem;
+   height: 2.2rem;
+   background-color: rgb(74, 74, 206);
+   color: #fff;
+}

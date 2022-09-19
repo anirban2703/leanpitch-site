@@ -1,0 +1,46 @@
+.main-container{
+    width: 100vw;
+    height: 100%;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem;
+    border-top: 2px solid #fff;
+}
+.main-container img{
+    height: 37.5rem;
+    width: 37.5rem;
+}
+
+.descriptions{
+    text-align: left;
+    padding-right:10rem;
+}
+.descriptions h1{
+    text-align: center;
+    font-weight: 500;
+    font-size: 4rem;
+    padding: 0 24px ;
+    color: red;
+    margin-bottom: 24px;
+}
+
+.descriptions p{
+    font-size: 1rem;
+    margin-bottom: 16px;
+}
+.descriptions .btns{
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem 15rem;
+}
+.descriptions .btns button{
+    height: 2.5rem;
+    width: 15rem;
+    background-color: red;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 2rem;
+}

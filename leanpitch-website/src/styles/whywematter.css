@@ -1,0 +1,45 @@
+.main-conatiner{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    margin-bottom: 2px solid #fff;
+}
+.main-conatiner button{
+    width: 20rem;
+    height: 3rem;
+    border: 1.5px solid #fff;
+    border-radius: 3rem;
+    background-color:black;
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.headings{
+    font-size: 3.2rem;
+    color: yellow;
+}
+.headings img{
+margin-left: 35rem;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+}
+.content .description{
+    text-align: left;
+    padding-right: 3rem;
+}
+.content .description h2{
+    font-size: 3rem;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+.content .description p{
+    font-size: 1.5rem;
+    font-weight: 600;
+}

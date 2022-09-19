@@ -1,0 +1,40 @@
+.blog-container{
+    width: 100%;
+
+}
+.blog-container h1{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+.blog-cards{
+  display: flex;
+  margin: 2rem;
+  overflow-x: scroll;
+}
+
+.blog-card{
+    width:18.75rem;
+    height: 12.5rem;
+    background-color: red;
+    position: relative;
+    margin: 1rem;
+}
+
+.blog-card img{
+    width:18.75rem;
+    height: 12.5rem;
+    object-fit: cover;
+}
+
+.blog-card .blog-desc{
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    padding-bottom: 1rem;
+    text-align: left;
+    padding-left: 1rem;
+}
+.blog-desc p{
+    color: yellow;
+    font-weight: 700;
+}

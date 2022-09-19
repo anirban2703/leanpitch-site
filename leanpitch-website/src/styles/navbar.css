@@ -1,0 +1,41 @@
+.navbar-comp{
+    background-color: rgb(50, 50, 50);
+    width: 100vw;
+    height:5rem;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.logo img{
+    object-fit: cover;
+    height: 4rem;    
+}
+.subs{
+ margin-right: 10rem;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ font-size: 24px;
+ cursor: pointer;
+}
+.subs .subscribe
+{   height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: red;
+}
+.contact-us{
+    height: 5rem;
+    width:20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

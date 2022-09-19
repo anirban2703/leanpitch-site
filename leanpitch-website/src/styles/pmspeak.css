@@ -1,0 +1,14 @@
+.pmspeak-heading{
+    font-size: 4rem;
+    font-weight: 600;
+}
+.pm-cards{
+    display: flex;
+    margin: 2rem;
+    overflow-x: scroll;
+
+}
+
+.pm-card{
+    margin: 1rem;
+}

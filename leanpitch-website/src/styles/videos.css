@@ -1,0 +1,20 @@
+.videos-container{
+    width: 100%;
+}
+.videos-container h1{
+    font-size:4rem;
+    font-weight: 700;
+}
+.videos-cards{
+   display: flex;
+   margin: 2rem;
+   overflow-x: scroll;
+}
+.video-card{
+    margin: 1rem;
+}
+.video-card img{
+    width: 17.6rem;
+    height:12.5rem;
+    object-fit: cover;
+}
